@@ -73,10 +73,6 @@ while True:
                                         BALL_WIDTH_HEIGHT, BALL_WIDTH_HEIGHT)
 
     # 8 – Выполняем действия "в рамках фрейма"
-    # Проверяем нажатия клавиш пользователем
-    keyPressedTuple = pygame.key.get_pressed()
-
-
     # определяем, перекрывает ли мяч целевое изображение
     ball_rect = pygame.Rect(ball_X, ball_Y, BALL_WIDTH_HEIGHT,
                             BALL_WIDTH_HEIGHT)
